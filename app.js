@@ -29,10 +29,10 @@ app.post("/", function(req, res) {
   };
   var data2 = JSON.stringify(data);
   var options = {
-    url: "https://us5.api.mailchimp.com/3.0/lists/78eb42f4e1",
+    url: "https://us13.api.mailchimp.com/3.0/lists/e5d8429dac",
     method: "POST",
     headers: {
-      "Authorization": "Azunda 08d1c44aef20e136290c732d34d52b38-us5"
+      "Authorization": "Kaka 178d5bc010e5a899ceda18957907fc66-us13"
     },
     body: data2
   }
@@ -52,5 +52,5 @@ app.post("/failure", function(req, res) {
 app.listen(process.env.PORT, function() {
   console.log("app is active");
 });
-// 78eb42f4e1.
-// 08d1c44aef20e136290c732d34d52b38-us5
+//  azunda- 78eb42f4e1.
+// azunda- 08d1c44aef20e136290c732d34d52b38-us5
